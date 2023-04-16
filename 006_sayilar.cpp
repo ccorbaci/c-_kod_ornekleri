@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include<cmath>
 
 using namespace std;
 
@@ -34,7 +35,13 @@ int main()
     cout << number << endl;
 
     //2 tamsayıyı böldüğümüzde sonucu tamsayı alırız.Sonucu ondalıklı istiyorsak sayıları da ondalıklı vermemiz gerek.
-    cout << 10.0 / 3.0 << endl;     
+    cout << 10.0 / 3.0 << endl;
+
+    //pow sayının üssünü hesaplamak içindir.
+    cout << pow(2, 5) << endl;
+
+    //sqrt karekök alır.Ekrana 6 yazacak.
+    cout << sqrt(36);
 
     return 0;
 }
