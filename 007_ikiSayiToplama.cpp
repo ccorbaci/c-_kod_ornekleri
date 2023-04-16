@@ -1,20 +1,21 @@
-
 #include <iostream>
+
 
 using namespace std;
 
 int main()
 {
-    int sayi1 = 1;
-    int sayi2 = 2;
-    int toplam;
+	int sayi1, sayi2, toplam;
+		
+	cout << "Ilk sayiyi Girin: ";
+	cin >> sayi1;
+	cout << "Ikinci sayiyi Girin: ";
+	cin >> sayi2;
 
-        toplam = sayi1 + sayi2;
+	cout << "Girdiginiz Sayilarin toplami: ";
+	toplam = sayi1 + sayi2;
+	cout << toplam;
 
 
-        cout << "Girdiginiz sayilarin toplami: " << endl;
-        cout << toplam << endl;
-    
-
-    return 0;
+	return 0;
 }
