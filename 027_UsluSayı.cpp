@@ -5,7 +5,7 @@ int power(int baseNum, int powNum) {
     int result = 1;
     
     for (int i = 0; i < powNum;i++) {
-        result = result * powNum;
+        result = result * baseNum;
 
     }    
     return result;
